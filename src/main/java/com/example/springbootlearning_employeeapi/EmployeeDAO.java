@@ -9,9 +9,9 @@ public class EmployeeDAO {
 
     static {
         //Sample Data
-        employees.getEmployeeList().add(new Employee(1, "Lokesh", "Gupta", "lokesh@gmail.com"));
-        employees.getEmployeeList().add(new Employee(2, "Alex", "Kolenchiskey", "alex@gmail.com"));
-        employees.getEmployeeList().add(new Employee(3, "David", "Kameron", "david@gmail.com"));
+        employees.getEmployeeList().add(new Employee(1, "Lokesh", "Gupta", "lokesh@gmail.com", "Developer"));
+        employees.getEmployeeList().add(new Employee(2, "Alex", "Kolenchiskey", "alex@gmail.com", "Manager"));
+        employees.getEmployeeList().add(new Employee(3, "David", "Kameron", "david@gmail.com", "Developer"));
     }
 
     //Retrieve All Employees
